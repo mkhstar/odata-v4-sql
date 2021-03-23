@@ -1,5 +1,5 @@
-import { Token } from "odata-v4-parser/lib/lexer";
-import { Literal } from "odata-v4-literal";
+import { Token } from "../odata-v4-parser/src/lexer";
+import { Literal } from "./Literal";
 import { SqlOptions } from "./index";
 
 export class SQLLiteral extends Literal{

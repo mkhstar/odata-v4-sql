@@ -8,12 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "tsc",
-    "pretest": "npm run build",
-    "test": "mocha",
-    "pretdd": "npm run build",
-    "tdd": "mocha -w",
-    "prepare": "npm run build"
+    "build": "rm -rf ./lib && tsc"
   },
   "repository": {
     "type": "git",
@@ -30,13 +25,7 @@
     "url": "https://github.com/jaystack/odata-v4-sql/issues"
   },
   "homepage": "https://github.com/jaystack/odata-v4-sql#readme",
-  "dependencies": {
-    "odata-v4-literal": "^0.1.0",
-    "odata-v4-parser": "0.1.13"
-  },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.1.2",
     "typescript": "^2.5.1"
   }
 }
