@@ -2,8 +2,8 @@
   "name": "odata-v4-sql",
   "version": "0.1.2",
   "description": "OData to SQL query compiler",
-  "main": "lib/index.js",
-  "typings": "lib/index",
+  "main": "lib/src/index.js",
+  "typings": "lib/src/index",
   "directories": {
     "test": "test"
   },
